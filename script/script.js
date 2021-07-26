@@ -20,3 +20,5 @@ questions.forEach((question, index) => {
 		answers[index].classList.toggle('block');
 	});
 });
+let allImages = document.querySelectorAll('img');
+allImages.forEach(img => img.alt = "#")
