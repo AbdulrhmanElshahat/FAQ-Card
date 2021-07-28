@@ -20,5 +20,6 @@ questions.forEach((question, index) => {
 		answers[index].classList.toggle('block');
 	});
 });
+//Add alt to all image
 let allImages = document.querySelectorAll('img');
 allImages.forEach(img => img.alt = "#")
