@@ -23,7 +23,7 @@ body {
 /* Container -content */
 .container-content {
 	max-width: 800px;
-	height: 400px;
+	height: 420px;
 	background-color: #FFF;
 	border-radius: 10px;
 	display: flex;
@@ -110,7 +110,7 @@ body {
 .questions h1 {
 	font-weight: 700;
 	font-size: 25px;
-	padding-bottom: 20px;
+	padding:20px 0 35px 0px;
 }
 @media (max-width: 900px){
 	.questions {
